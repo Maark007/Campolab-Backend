@@ -19,8 +19,8 @@ Aplicação criada com NodeJS.
 ### Rotas
 
 ```
-- **GET - producer:** Retornar todos os produtores.
-- **POST - producer:** Enviar os dados necessarios para cadastrar os produtores.
+- **GET - producer:** Retorna todos os produtores.
+- **POST - producer:** Envia os dados necessarios para cadastrar os produtores.
 - **PATCH - producer:** Edita os dados do produtor.
 - **DELETE - producer:** Exclui o produtor informado.
 
