@@ -19,14 +19,14 @@ Aplicação criada com NodeJS.
 ### Rotas
 
 ```
-- **GET - producer:** Retorna todos os produtores.
-- **POST - producer:** Envia os dados necessarios para cadastrar os produtores.
-- **PATCH - producer:** Edita os dados do produtor.
-- **DELETE - producer:** Exclui o produtor informado.
+- **GET - (producer) :** Retorna todos os produtores.
+- **POST - (producer) :** Envia os dados necessarios para cadastrar os produtores.
+- **PATCH - (/producer/:id) :** Edita os dados do produtor.
+- **DELETE - (/producer/:id) :** Exclui o produtor informado.
 
-- **POST - farms:** Envia os dados necessarios para cadastrar as propriedades.
-- **GET - producers/farms/:id:** Envia o ID do produtor e retornar as propriedades vinculados ao mesmo.
-- **GET - /farm/showall:**  Retornar todas as propriedades.
+- **POST - (/producer/:id_producer/farm) :** Envia os dados necessarios para cadastrar as propriedades.
+- **GET - (/producer/:id_producer/farm) :** Envia o ID do produtor e retornar as propriedades vinculados ao mesmo.
+- **GET - (/farm/showall) :**  Retornar todas as propriedades.
 
 ```
 
